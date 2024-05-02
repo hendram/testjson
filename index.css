@@ -1,0 +1,26 @@
+    body {
+    margin: 0;
+    }
+    .top {
+    width: 100vw;
+    height: 30vh;
+    background-color: blue;
+    }
+    .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    }
+    .left {
+    width: 60vw;
+    height: 70vh;
+    background-color: red;
+    }
+    .right {
+    width: 40vw;
+    height: 70vh;
+    background-color: orange;
+    }
