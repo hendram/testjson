@@ -1,26 +1,23 @@
-    body {
-    margin: 0;
+/* Bar chart container */
+.chart-container {
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+/* CSS for bar chart animation */
+@keyframes barGrow {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
     }
-    .top {
-    width: 100vw;
-    height: 30vh;
-    background-color: blue;
+    100% {
+        transform: translateY(0);
+        opacity: 1;
     }
-    .bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 70vh;
-    }
-    .left {
-    width: 60vw;
-    height: 70vh;
-    background-color: red;
-    }
-    .right {
-    width: 40vw;
-    height: 70vh;
-    background-color: orange;
-    }
+}
+
+.chartjs-render-monitor .bar {
+    animation: barGrow 1s ease-out forwards;
+}

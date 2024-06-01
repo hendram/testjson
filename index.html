@@ -1,22 +1,21 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title> username and password </title>
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch JSON Data</title>
 </head>
-
 <body>
-    <div class="top">
-        <img src="logo.png">
-    </div>
-    <div class="bottom">
-        <div class="left">
-        </div>
-        <div class="right">
-            <input type="text" size=10 />
-            <input type="password" size=10 />
-        </div>
-    </div>
+    <script>
+        // Fetch the JSON data from data.json
+        fetch('data.json')
+            .then(response => response.json()) // Parse the JSON data from the response
+            .then(data => {
+                console.log(data); // Log the JSON data to the console
+            })
+            .catch(error => {
+                console.error('Error fetching the JSON data:', error); // Log any errors to the console
+            });
+    </script>
 </body>
-
 </html>
