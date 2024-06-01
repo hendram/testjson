@@ -1,225 +1,72 @@
-{
-  "countries": [
+[
     {
-      "country": "Afghanistan",
-      "2023": -3.1,
-      "2022": 3.1,
-      "2021": 6.2,
-      "absolute_change_1": 200,
-      "relative_change_1": 0.92,
-      "absolute_change_12": 0.23,
-      "relative_change_12": -0.69,
-      "absolute_change_123": -75,
-      "relative_change_123": 0.24
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "age": 28,
+        "city": "New York"
     },
     {
-      "country": "Albania",
-      "2023": 2.4,
-      "2022": 2.4,
-      "2021": 0,
-      "absolute_change_1": 2,
-      "relative_change_1": -0.22,
-      "absolute_change_12": 3.92,
-      "relative_change_12": 4.14,
-      "absolute_change_123": 1874,
-      "relative_change_123": 1.36
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "age": 34,
+        "city": "Los Angeles"
     },
     {
-      "country": "Algeria",
-      "2023": 0.3,
-      "2022": 0.9,
-      "2021": 0.6,
-      "absolute_change_1": 209,
-      "relative_change_1": -0.39,
-      "absolute_change_12": 3.69,
-      "relative_change_12": 4.09,
-      "absolute_change_123": 1039,
-      "relative_change_123": 2.39
+        "id": 3,
+        "name": "Charlie Brown",
+        "email": "charlie.brown@example.com",
+        "age": 45,
+        "city": "Chicago"
     },
     {
-      "country": "Ameran Samoa",
-      "2023": -0.3,
-      "2022": 0.1,
-      "2021": 0.4,
-      "absolute_change_1": 147,
-      "relative_change_1": 0.28,
-      "absolute_change_12": -0.26,
-      "relative_change_12": -0.54,
-      "absolute_change_123": -194,
-      "relative_change_123": -0.24
+        "id": 4,
+        "name": "Diana Ross",
+        "email": "diana.ross@example.com",
+        "age": 23,
+        "city": "Houston"
     },
     {
-      "country": "Andorra",
-      "2023": 0.2,
-      "2022": 1.9,
-      "2021": 1.8,
-      "absolute_change_1": 1022,
-      "relative_change_1": 0.74,
-      "absolute_change_12": 2.82,
-      "relative_change_12": 2.08,
-      "absolute_change_123": 280,
-      "relative_change_123": -1.97
+        "id": 5,
+        "name": "Evan Taylor",
+        "email": "evan.taylor@example.com",
+        "age": 31,
+        "city": "Phoenix"
     },
     {
-      "country": "Angola",
-      "2023": -0.4,
-      "2022": 1,
-      "2021": 1.5,
-      "absolute_change_1": 332,
-      "relative_change_1": 0.62,
-      "absolute_change_12": 0.62,
-      "relative_change_12": 0,
-      "absolute_change_123": 0,
-      "relative_change_123": 0.5
+        "id": 6,
+        "name": "Fiona Green",
+        "email": "fiona.green@example.com",
+        "age": 27,
+        "city": "Philadelphia"
     },
     {
-      "country": "Anguilla",
-      "2023": -0.1,
-      "2022": 0.5,
-      "2021": 0.6,
-      "absolute_change_1": 916,
-      "relative_change_1": 0.24,
-      "absolute_change_12": -0.02,
-      "relative_change_12": -0.26,
-      "absolute_change_123": -109,
-      "relative_change_123": 0.22
+        "id": 7,
+        "name": "George Wilson",
+        "email": "george.wilson@example.com",
+        "age": 39,
+        "city": "San Antonio"
     },
     {
-      "country": "Antigua and Barbuda",
-      "2023": -0.1,
-      "2022": 0.7,
-      "2021": 0.7,
-      "absolute_change_1": 889,
-      "relative_change_1": 0.06,
-      "absolute_change_12": -0.11,
-      "relative_change_12": -0.18,
-      "absolute_change_123": -286,
-      "relative_change_123": 0.3
+        "id": 8,
+        "name": "Hannah Lee",
+        "email": "hannah.lee@example.com",
+        "age": 30,
+        "city": "San Diego"
     },
     {
-      "country": "Argentina",
-      "2023": 1.4,
-      "2022": 0.2,
-      "2021": -1.2,
-      "absolute_change_1": -86,
-      "relative_change_1": 1.15,
-      "absolute_change_12": 1.39,
-      "relative_change_12": 0.24,
-      "absolute_change_123": 21,
-      "relative_change_123": -0.45
+        "id": 9,
+        "name": "Ian Clark",
+        "email": "ian.clark@example.com",
+        "age": 42,
+        "city": "Dallas"
     },
     {
-      "country": "Armenia",
-      "2023": 1.6,
-      "2022": 4.2,
-      "2021": 2.6,
-      "absolute_change_1": 169,
-      "relative_change_1": -0.68,
-      "absolute_change_12": 2.33,
-      "relative_change_12": 3.01,
-      "absolute_change_123": 444,
-      "relative_change_123": 0.89
-    },
-    {
-      "country": "Australia",
-      "2023": -1,
-      "2022": 1.1,
-      "2021": 2.2,
-      "absolute_change_1": 212,
-      "relative_change_1": 0.24,
-      "absolute_change_12": -0.72,
-      "relative_change_12": -0.97,
-      "absolute_change_123": -396,
-      "relative_change_123": -0.6
-    },
-    {
-      "country": "Austria",
-      "2023": 2.7,
-      "2022": 2.5,
-      "2021": -0.2,
-      "absolute_change_1": -8,
-      "relative_change_1": 1.75,
-      "absolute_change_12": 1.37,
-      "relative_change_12": -0.38,
-      "absolute_change_123": -22,
-      "relative_change_123": -0.22
-    },
-    {
-      "country": "Azerbaijan",
-      "2023": 0.1,
-      "2022": 3.6,
-      "2021": 3.5,
-      "absolute_change_1": 4164,
-      "relative_change_1": 0.43,
-      "absolute_change_12": 0.62,
-      "relative_change_12": 0.19,
-      "absolute_change_123": 43,
-      "relative_change_123": 0.92
-    },
-    {
-      "country": "Bahamas",
-      "2023": 1,
-      "2022": 0.3,
-      "2021": -0.7,
-      "absolute_change_1": -68,
-      "relative_change_1": 0.27,
-      "absolute_change_12": 0.74,
-      "relative_change_12": 0.46,
-      "absolute_change_123": 170,
-      "relative_change_123": 0.1
-    },
-    {
-      "country": "Bahrain",
-      "2023": 0.2,
-      "2022": 2,
-      "2021": 1.8,
-      "absolute_change_1": 846,
-      "relative_change_1": 0.1,
-      "absolute_change_12": 1.79,
-      "relative_change_12": 1.69,
-      "absolute_change_123": 1610,
-      "relative_change_123": 1.32
-    },
-    {
-      "country": "Bangladesh",
-      "2023": 0.3,
-      "2022": 1.2,
-      "2021": 0.8,
-      "absolute_change_1": 242,
-      "relative_change_1": 0.34,
-      "absolute_change_12": 0.77,
-      "relative_change_12": 0.43,
-      "absolute_change_123": 124,
-      "relative_change_123": 0.3
-    },
-    {
-      "country": "Belarus",
-      "2023": 3.4,
-      "2022": 1.9,
-      "2021": -1.5,
-      "absolute_change_1": -45,
-      "relative_change_1": 2.01,
-      "absolute_change_12": -0.19,
-      "relative_change_12": -2.2,
-      "absolute_change_123": -109,
-      "relative_change_123": 0.14
-    },
-    {
-      "country": "Belgium",
-      "2023": 1.5,
-      "2022": 2.5,
-      "2021": 1,
-      "absolute_change_1": 64,
-      "relative_change_1": 0.6,
-      "absolute_change_12": -0.29,
-      "relative_change_12": -0.88,
-      "absolute_change_123": -148,
-      "relative_change_123": -0.6
-    },
-    {
-      "country": "Belize",
-      "2023": 1.2,
-      "2022": 0.6,
-      "2021": -0.7,
-      "absolute_change_1
-}]} 
+        "id": 10,
+        "name": "Jenna Lewis",
+        "email": "jenna.lewis@example.com",
+        "age": 25,
+        "city": "San Jose"
+    }
+]
